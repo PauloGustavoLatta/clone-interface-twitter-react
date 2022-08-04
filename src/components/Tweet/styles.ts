@@ -1,4 +1,4 @@
-import { Chat, Favorite, Rocketseat } from '../../styles/Icons';
+import { Chat, Favorite, LogoTwitter, Retweet } from '../../styles/Icons';
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
@@ -16,7 +16,7 @@ export const Retweeted = styled.div`
   color: var(--gray);
 `;
 
-export const RocketseatIcon = styled(Rocketseat)`
+export const Twitter = styled(LogoTwitter)`
   width: 16px;
   height: 16px;
   margin-left: 35px;
@@ -137,7 +137,7 @@ export const Status = styled.div`
   &:nth-child(2) {
     color: var(--retweet);
 
-    > svg path {
+    > svg {
       fill: var(--retweet);
     }
   }
@@ -160,8 +160,9 @@ export const CommentIcon = styled(Chat)`
   ${iconCSS}
 `;
 
-export const RetweetIcon = styled(Rocketseat)`
-  ${iconCSS}
+export const RetweetIcon = styled(Retweet)`
+  width: 24px;
+  height: 24px;
 `;
 
 export const LikeIcon = styled(Favorite)`

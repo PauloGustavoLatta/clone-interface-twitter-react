@@ -3,9 +3,9 @@ import {
   ExitToApp,
   FavoriteBorder,
   Home,
+  LogoTwitter,
   Notifications,
   Person,
-  Rocketseat,
 } from '../../styles/Icons';
 import styled, { css } from 'styled-components';
 
@@ -38,7 +38,7 @@ export const Topside = styled.div`
   }
 `;
 
-export const Logo = styled(Rocketseat)`
+export const Logo = styled(LogoTwitter)`
   width: 41px;
   height: 41px;
 
